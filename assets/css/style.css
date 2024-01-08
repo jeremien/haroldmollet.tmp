@@ -12,6 +12,10 @@
 body {
   font-family: Marbra;
   font-size: 56px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* letter-spacing: 0.02em; */
 }
 
 .container {
@@ -37,12 +41,12 @@ p {
   justify-content: flex-end;
   align-items: center;
   position: relative;
-  width: 450px;
+  width: 480px;
 }
 
 .image {
   width: auto;
-  height: 500px;
+  height: 520px;
   padding-bottom: 4px;
 }
 
@@ -64,6 +68,7 @@ p {
   display: flex;
   position: absolute;
   z-index: 5;
-  font-size: 90px;
+  font-size: 98px;
   margin-top: 90px;
+  letter-spacing: 0.02em;
 }
