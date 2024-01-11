@@ -32,6 +32,7 @@ h1 {
 }
 
 p {
+  margin-top: 30px;
   font-size: 23.5px;
 }
 
@@ -76,4 +77,31 @@ a {
   font-size: 98px;
   margin-top: 90px;
   letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 62em) {
+
+
+  h1 {
+    font-size: 115px;
+  }
+
+  p {
+    margin-top: 80px;
+    font-size: 53px;
+  }
+
+  .coming {
+    margin-top:
+    font-size: 90px;
+  }
+
+  .content {
+    width: 800px;
+  }
+
+  .image {
+    height: 920px;
+  }
+
 }
