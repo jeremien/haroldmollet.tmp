@@ -34,6 +34,8 @@ h1 {
 p {
   margin-top: 30px;
   font-size: 23.5px;
+  width: 100%;
+  text-align: center;
 }
 
 a {
@@ -68,6 +70,11 @@ a {
   width: 100%;
 }
 
+.monogramme-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .coming {
   font-family: ZellaGrotesk;
   text-transform: uppercase;
@@ -88,7 +95,9 @@ a {
 
   p {
     margin-top: 80px;
-    font-size: 53px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
   }
 
   .coming {
@@ -97,11 +106,17 @@ a {
   }
 
   .content {
-    width: 800px;
+    width: 830px;
   }
 
   .image {
     height: 920px;
   }
+
+  .monogramme-icon {
+    width: 110px;
+    height: 110px;
+  }
+
 
 }
